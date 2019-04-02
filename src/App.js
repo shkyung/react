@@ -4,12 +4,14 @@ import React, { Component } from 'react';
 import HelloMessage from "./HelloMessage";
 
 import Timer from "./Timer";
+import TodoApp from "./TodoApp";
 
 class App extends Component {
   render() {
     return (
         //<HelloMessage name="Taylor" />
-        <Timer />
+        //<Timer />
+        <TodoApp />
     );
   }
 }
